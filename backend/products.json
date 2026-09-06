@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 599,
+    "stock": 25,
+    "seller": "TechBazaar"
+  },
+  {
+    "id": 2,
+    "name": "Notebook Set (3-pack)",
+    "price": 199,
+    "stock": 100,
+    "seller": "PaperCraft"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 1499,
+    "stock": 12,
+    "seller": "SoundWave"
+  }
+]

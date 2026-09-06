@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛍️ Mini Marketplace</h1>
+    <p>A tiny demo marketplace — browse products, add new listings.</p>
+  </header>
+
+  <main>
+    <section id="add-product">
+      <h2>Add a Product</h2>
+      <form id="product-form">
+        <input type="text" id="name" placeholder="Product name" required />
+        <input type="number" id="price" placeholder="Price (₹)" required />
+        <input type="number" id="stock" placeholder="Stock quantity" required />
+        <input type="text" id="seller" placeholder="Seller name" required />
+        <button type="submit">Add Product</button>
+      </form>
+    </section>
+
+    <section id="product-list">
+      <h2>Available Products</h2>
+      <div id="products"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
